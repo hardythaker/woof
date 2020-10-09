@@ -1,0 +1,28 @@
+.home {
+  background-color: var(--primary-color);
+  /* min-height: 70vh; */
+}
+* {
+  color: white;
+}
+h1 {
+  font-weight: 500;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  align-items: center;
+  justify-items: center;
+}
+.my-btn {
+  border-radius: 0%;
+  border: 2px solid white;
+  height: 35px;
+  width: 35px;
+  margin-right: 1rem;
+}
+/* div {
+  border: 1px solid black;
+} */

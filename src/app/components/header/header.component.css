@@ -1,0 +1,36 @@
+/* @media only screen and (min-width: 990px) {
+  .container {
+    margin: 0rem 20rem;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .container {
+    margin: 0rem 2rem;
+  }
+} */
+/* .container {
+  margin: 0rem 2rem;
+} */
+.navbar {
+  padding: 0px;
+}
+
+.nav-link {
+  margin: 0px;
+  color: gray !important;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+/* ul {
+  margin-left: 36rem;
+} */
+/* .active {
+  color: red;
+  padding: 0rem;
+  border-top: 2px solid orange;
+} */
