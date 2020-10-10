@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { SubscriptionComponent } from './components/subscription/subscription.component';
 import { AboutComponent } from './components/about/about.component';
+import { FeaturesComponent } from './components/features/features.component';
 
 @NgModule({
   declarations: [
@@ -13,12 +14,11 @@ import { AboutComponent } from './components/about/about.component';
     HeaderComponent,
     HomeComponent,
     SubscriptionComponent,
-    AboutComponent
+    AboutComponent,
+    FeaturesComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

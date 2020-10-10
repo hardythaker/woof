@@ -1,8 +1,87 @@
 <div class="about">
   <div class="container">
     <div class="row">
-      <div class="col p-5 d-flex justify-content-around">
-        <h2>"A ONE LINE STATEMENT ABOUT THE APP GOES HERE"</h2>
+      <div class="col p-5">
+        <h3 class="text-center">
+          <p class="d-none d-lg-inline sup">&ldquo;</p>
+          A ONE LINE STATEMENT ABOUT THE APP GOES HERE
+          <p class="d-none d-lg-inline sup">&rdquo;</p>
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="about-subtitle">
+  <div class="container">
+    <div class="row">
+      <div class="col p-5">
+        <h2 class="text-center my-title">GIVE A DOG A HOME</h2>
+        <p class="text-center">subtitle of the section goes here</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="about-details pb-5">
+  <div class="container">
+    <div class="row d-none d-md-flex justify-content-center">
+      <div *ngFor="let action of actions; index as i" class="pt-5">
+        <div class="col m-md-1 d-flex justify-content-center">
+          <div
+            class="box ml-lg-auto d-flex align-items-center justify-content-center"
+          >
+            <h1 class="text-center box-title">
+              {{ i + 1 }}<br />
+              <h4 class="box-subtitle">{{ action }}</h4>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5 justify-content-center">
+      <h2 class="text-center about-subtitle mt-4">Heading of this section</h2>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        <div *ngFor="let i of [1, 2]" class="pb-3">
+          <div class="pt-5 pt-md-0">
+            <div>
+              <h5 class="text-center sub-heading p-2">SUB HEADING</h5>
+            </div>
+            <div>
+              <p class="text-center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas ea rem est delectus quisquam?
+              </p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md d-flex justify-content-center align-items-end pt-5 pt-md-0"
+      >
+        <img src="../../../assets/images/mobile-app-full.jpg" />
+      </div>
+      <div class="col-md">
+        <div *ngFor="let i of [1, 2]" class="pb-3">
+          <div class="pt-5 pt-md-0">
+            <div>
+              <h5 class="text-center sub-heading p-2">SUB HEADING</h5>
+            </div>
+            <div>
+              <p class="text-center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas ea rem est delectus quisquam?
+              </p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

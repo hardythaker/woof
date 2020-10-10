@@ -1,11 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+/* @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@200;400;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@200;400;700&display=swap");
 * {
   margin: 0;
 }
 :root {
-  --primary-color: #8dbdae;
+  --primary-color: #6bab99;
   --secondary-color: #f59a70;
+  --gray-background: #f0f0f0;
 }
 /*  */
 @media only screen and (min-width: 990px) {
@@ -14,4 +17,10 @@
     /* border: 1px solid black; */
     /* padding: 0px 10rem; */
   }
+}
+body {
+  font-family: "Palanquin";
+}
+.my-title {
+  font-weight: 700;
 }

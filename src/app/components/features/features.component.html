@@ -1,0 +1,31 @@
+<div>
+  <div class="features-heading">
+    <div class="container">
+      <h2 class="text-center features-title pt-5">FEATURES</h2>
+      <p class="text-center features-sub-title pb-5">
+        Sub title of the section goes here
+      </p>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div *ngFor="let i of [1, 2, 3]; odd as o">
+      <div class="row py-2" [class.flex-row-reverse]="o">
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="features-circle"></div>
+        </div>
+        <div class="col-md-8 pt-3">
+          <p class="details-heading text-center text-md-left">Heading</p>
+          <p class="text-center text-md-left">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel harum
+            pariatur similique voluptate rerum quod architecto repudiandae.
+            Totam dolor, mollitia rem voluptas, nam laboriosam optio libero
+            excepturi dolorum tenetur eius. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Aut rem est veritatis magnam inventore
+            impedit commodi qui ipsam ea iure, eos, distinctio sapiente deserunt
+            iste debitis facere nisi reprehenderit doloremque!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
