@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SubscriptionComponent } from './components/subscription/subscription.component';
 import { AboutComponent } from './components/about/about.component';
 import { FeaturesComponent } from './components/features/features.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FeaturesComponent } from './components/features/features.component';
     SubscriptionComponent,
     AboutComponent,
     FeaturesComponent,
+    ContactComponent,
   ],
   imports: [BrowserModule],
   providers: [],

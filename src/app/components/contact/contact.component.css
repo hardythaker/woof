@@ -1,0 +1,13 @@
+.contact-heading {
+  background-color: var(--primary-color);
+  color: white;
+}
+.contact-details {
+  background-color: black;
+  color: white;
+}
+.my-footer {
+  background-color: var(--primary-color);
+  font-size: 0.8rem;
+  color: white;
+}

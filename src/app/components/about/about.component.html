@@ -1,7 +1,7 @@
 <div class="about">
   <div class="container">
     <div class="row">
-      <div class="col p-5">
+      <div class="col py-5 px-0">
         <h3 class="text-center">
           <p class="d-none d-lg-inline sup">&ldquo;</p>
           A ONE LINE STATEMENT ABOUT THE APP GOES HERE
@@ -13,22 +13,21 @@
 </div>
 <div class="about-subtitle">
   <div class="container">
-    <div class="row">
-      <div class="col p-5">
-        <h2 class="text-center my-title">GIVE A DOG A HOME</h2>
-        <p class="text-center">subtitle of the section goes here</p>
-      </div>
-    </div>
+    <!-- <div class="row">
+      <div class="col py-5"> -->
+    <h2 class="text-center my-title pt-5 mb-0">GIVE A DOG A HOME</h2>
+    <p class="text-center pb-5 mb-0">subtitle of the section goes here</p>
+    <!-- </div>
+    </div> -->
   </div>
 </div>
 <div class="about-details pb-5">
   <div class="container">
-    <div class="row d-none d-md-flex justify-content-center">
+    <!-- CARDS -->
+    <div class="row d-none d-md-flex justify-content-center mx-0">
       <div *ngFor="let action of actions; index as i" class="pt-5">
-        <div class="col m-md-1 d-flex justify-content-center">
-          <div
-            class="box ml-lg-auto d-flex align-items-center justify-content-center"
-          >
+        <div class="col my-md-1 d-flex justify-content-center">
+          <div class="box d-flex align-items-center justify-content-center">
             <h1 class="text-center box-title">
               {{ i + 1 }}<br />
               <h4 class="box-subtitle">{{ action }}</h4>
@@ -37,10 +36,13 @@
         </div>
       </div>
     </div>
-
-    <div class="row mt-5 justify-content-center">
-      <h2 class="text-center about-subtitle mt-4">Heading of this section</h2>
+    <!-- Section Heading -->
+    <div class="row mt-5">
+      <div class="col">
+        <h2 class="text-center about-subtitle mt-4">Heading of this section</h2>
+      </div>
     </div>
+    <!-- Circles Cards -->
     <div class="row">
       <div class="col-md">
         <div *ngFor="let i of [1, 2]" class="pb-3">
